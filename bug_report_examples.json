@@ -1,0 +1,51 @@
+{
+	"BugReport_ID" : "1",
+	"Summary" : "Social icons overlap the text in the button in a registration form. RU version, mobile",
+	"Steps_to_reproduce" : 
+	{
+	"1" : "Open the web page https://ru.coursera.org/",
+	"2" : "Scroll page to the Присоединиться бесплатно button",
+	"3" : "Click on the Присоединиться бесплатно button",
+	"4" : "Close the online keyboard",
+	"5" : "Scroll page to the Продолжить с … button",
+	"6" : "Check the display of buttons"
+	},
+	"Expected result" : "Social icons and text are located in buttons in accordance with the mockup",
+	"Actual result" : "Social icons overlap the text in the button",
+	"Severity" : "Minor",
+	"Environment" : "Huawei FIG-LX1 (2018), Google Chrome , version ***"
+	}
+	
+	{
+	"BugReport_ID" : "2",
+	"Summary" : "Free shipping is ignored when calculating the total of the order",
+	"Preconditions" : "Log in to the personal account. Selected Delivery region is included in free area",
+	"Steps_to_reproduce" : 
+	{
+	"1" : "Open the catalog page of items *link*",
+	"2" : "Select two books with mark *Better World Books* and add them to the shopping cart by clicking *add to cart* button",
+	"3" : "Select one book without the mark *Better World Books* and add it to the shopping cart by clicking *add to cart* button",
+	"4" : "Click to the shopping cart icon"
+		},
+	"Expected result" : "3 items subtotal is equal to Total",
+	"Actual result" : "Shipping is included in total *Total isn't equal to subtotal*",
+	"Severity" : "Critical",
+	"Environment" : "Windows 10, Chrome 103.0.5060.134 Official 64 bit"
+	}
+	
+	{
+	"BugReport_ID" : "3",
+	"Summary" : "Value for counter on cart icon is differ from actual items quantity in the cart ",
+	"Preconditions" : "Log in to the personal account",
+	"Steps_to_reproduce" : 
+	{
+	"1" : "Open the catalog page of items *link*",
+	"2" : "Select two books with mark *Better World Books* and add them to the shopping cart by clicking *add to cart* button",
+	"3" : "Select one book without the mark *Better World Books* and add it to the shopping cart by clicking *add to cart* button",
+	"4" : "Click to the shopping cart icon"
+		},
+	"Expected result" : "Number of product items is displayed correctly on the shopping cart icon *is displayed number 3*",
+	"Actual result" : "Number of product items is displayed incorrectly on the shopping cart icon *is displayed number 2*",
+	"Severity" : "Minor",
+	"Environment" : "Windows 10, Chrome 103.0.5060.134 Official 64 bit"
+	}

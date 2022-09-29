@@ -1,0 +1,44 @@
+{
+	"TestCase_ID" : "1",
+	"Title" : "Shopping cart is available for a registered user",
+	"Preconditions" : "User was registered on the online shop",
+	"Steps" : 
+	{
+	"1" : "Enter valid login name",
+	"2" : "Enter valid password",
+	"3" : "Click to the button Log In",
+	"4" : "Click to the Shopping cart button"
+	},
+	"Expected result" : "Redirect to the shopping cart page"
+	}
+	
+	{
+	"TestCase_ID" : "2",
+	"Title" : "Create new account without email confirmation via web",
+	"Preconditions" : "The registration form was opened",
+	"Steps" : 
+	{
+	"1" : "Enter valid login name",
+	"2" : "Enter valid password",
+	"3" : "Click to the button Submit",
+	"4" : "Enter valid adress",
+	"5" : "Enter valid phone number",
+	"6" : "Enter valid email adress",
+	"7" : "Click to the button Next"
+	},
+	"Expected result" : "Customer profile was created. Info message To the specified address we sent the email. Please, confirm your email address to complete creation new customer's account. Customer's status is new, which displays at the top of the left side of the screen. Function Add to shopping cart is not available."
+	}
+	
+	"TestCase_ID" : "3",
+	"Title" : "Create an order at first time",
+	"Preconditions" : "Login to an account as a customer was executed. Purchase was added to the shopping cart",
+	"Steps" : 
+	{
+	"1" : "Select number of units of the product",
+	"2" : "Click to the button create an order",
+	"3" : "Select a delivery department",
+	"4" : "Click to the order button"
+	},
+	"Expected result" : "The order was created. Order status is hold. Pay button is available. Order icon is displayed and highlighted in the upper right part of the screen. Info message expecting payment is displayed under the order icon."
+	}
+	

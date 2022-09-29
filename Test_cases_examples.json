@@ -39,6 +39,6 @@
 	"3" : "Select a delivery department",
 	"4" : "Click to the order button"
 	},
-	"Expected result" : "The order was created. Order status is hold. Pay button is available. Order icon is displayed and highlighted in the upper right part of the screen. Info message expecting payment is displayed under the order icon."
+	"Expected result" : "The order was created. Order status is hold. Pay button is available. Order icon is displayed and highlighted in the upper right part of the screen. Info message expecting payment is displayed under the order icon"
 	}
 	

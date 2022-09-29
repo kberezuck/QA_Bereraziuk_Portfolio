@@ -29,6 +29,8 @@
 	"Expected result" : "Customer profile was created. Info message To the specified address we sent the email. Please, confirm your email address to complete creation new customer's account. Customer's status is new, which displays at the top of the left side of the screen. Function Add to shopping cart is not available."
 	}
 	
+
+{	
 	"TestCase_ID" : "3",
 	"Title" : "Create an order at first time",
 	"Preconditions" : "Login to an account as a customer was executed. Purchase was added to the shopping cart",
@@ -41,4 +43,3 @@
 	},
 	"Expected result" : "The order was created. Order status is hold. Pay button is available. Order icon is displayed and highlighted in the upper right part of the screen. Info message expecting payment is displayed under the order icon."
 	}
-	
